@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/frosted27/Documents/iot/espLeitorTemp/build/CMakeFiles/bootloader
+/home/frosted27/Documents/iot/espLeitorTemp/build/CMakeFiles/bootloader.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/CMakeFiles/bootloader-complete.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/frosted27/Documents/iot/espLeitorTemp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

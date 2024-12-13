@@ -1,0 +1,137 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  3 2024 20:11:41[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=25200h (152064) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00035228 vaddr=3ffb0000 size=03d84h ( 15748) load[0m
+[0;32mI (162) esp_image: segment 2: paddr=00038fb4 vaddr=40080000 size=07064h ( 28772) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=9c66ch (640620) map[0m
+[0;32mI (394) esp_image: segment 4: paddr=000dc694 vaddr=40087064 size=0fc40h ( 64576) load[0m
+[0;32mI (431) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (431) boot: Disabling RNG early entropy source...[0m
+[0;32mI (442) cpu_start: Multicore app[0m
+[0;32mI (451) cpu_start: Pro cpu start user code[0m
+[0;32mI (451) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (452) cpu_start: Application information:[0m
+[0;32mI (454) cpu_start: Project name:     espLeitorTemp[0m
+[0;32mI (460) cpu_start: App version:      1[0m
+[0;32mI (464) cpu_start: Compile time:     Dec  3 2024 20:11:24[0m
+[0;32mI (470) cpu_start: ELF file SHA256:  b30b30642...[0m
+[0;32mI (476) cpu_start: ESP-IDF:          v5.2.3[0m
+[0;32mI (481) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (485) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (490) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (495) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (502) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (508) heap_init: At 3FFB84A8 len 00027B58 (158 KiB): DRAM[0m
+[0;32mI (514) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (521) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 40096CA4 len 0000935C (36 KiB): IRAM[0m
+[0;32mI (535) spi_flash: detected chip: generic[0m
+[0;32mI (538) spi_flash: flash io: dio[0m
+[0;33mW (542) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (556) main_task: Started on CPU0[0m
+[0;32mI (566) main_task: Calling app_main()[0m
+[0;32mI (596) wifi:wifi driver task: 3ffc04b8, prio:23, stack:6656, core=0[0m
+[0;32mI (606) wifi:wifi firmware version: 82f54d2[0m
+[0;32mI (606) wifi:wifi certification version: v7.0[0m
+[0;32mI (606) wifi:config NVS flash: enabled[0m
+[0;32mI (606) wifi:config nano formating: disabled[0m
+[0;32mI (606) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (616) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (616) wifi:Init management short buffer num: 32[0m
+[0;32mI (626) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (626) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (636) wifi:Init static rx buffer num: 10[0m
+[0;32mI (636) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (636) wifi_init: rx ba win: 6[0m
+[0;32mI (646) wifi_init: tcpip mbox: 32[0m
+[0;32mI (646) wifi_init: udp mbox: 6[0m
+[0;32mI (646) wifi_init: tcp mbox: 6[0m
+[0;32mI (656) wifi_init: tcp tx win: 5760[0m
+[0;32mI (656) wifi_init: tcp rx win: 5760[0m
+[0;32mI (666) wifi_init: tcp mss: 1440[0m
+[0;32mI (666) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (676) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (676) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (686) phy_init: phy_version 4840,a40f0ac,Aug 16 2024,16:48:06[0m
+[0;33mW (776) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (836) wifi:mode : sta (cc:db:a7:35:65:0c)[0m
+[0;32mI (836) wifi:enable tsf[0m
+[0;32mI (846) TempUmidade: Outro evento MQTT, ID: 7[0m
+[0;31mE (846) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (846) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (856) mqtt_client: Error transport connect[0m
+[0;31mE (856) TempUmidade: MQTT_EVENT_ERROR[0m
+[0;32mI (866) TempUmidade: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (866) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1[0m
+[0;32mI (876) wifi:state: init -> auth (b0)[0m
+[0;32mI (866) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (886) TempUmidade: Botoes configurados da seguinte maneira:[0m
+[0;32mI (896) TempUmidade: Função A para digitar uma nova temperatura maxima[0m
+[0;32mI (896) TempUmidade: Função B para digitar uma nova umidade maxima[0m
+[0;32mI (906) wifi:state: auth -> assoc (0)[0m
+[0;32mI (926) wifi:state: assoc -> run (10)[0m
+[0;32mI (966) wifi:connected with virus.exe, aid = 6, channel 6, BW20, bssid = 68:02:b8:9e:09:60[0m
+[0;32mI (966) wifi:security: WPA2-PSK, phy: bgn, rssi: -78[0m
+[0;32mI (966) wifi:pm start, type: 1[0m
+
+[0;32mI (966) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (976) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (996) wifi:<ba-add>idx:0 (ifx:0, 68:02:b8:9e:09:60), tid:6, ssn:2, winSize:64[0m
+[0;32mI (2486) esp_netif_handlers: sta ip: 192.168.0.114, mask: 255.255.255.0, gw: 192.168.0.1[0m
+[0;32mI (2486) TempUmidade: Conectado ao Wi-Fi, endereço IP obtido.[0m
+[0;32mI (15866) TempUmidade: Outro evento MQTT, ID: 7[0m
+[0;32mI (16046) wifi:<ba-add>idx:1 (ifx:0, 68:02:b8:9e:09:60), tid:0, ssn:0, winSize:64[0m
+[0;32mI (16066) TempUmidade: MQTT_EVENT_CONNECTED[0m
+[0;32mI (16076) TempUmidade: Subscribed to topic: test[0m
+[0;32mI (16086) TempUmidade: Outro evento MQTT, ID: 3[0m
+[0;32mI (60636) TempUmidade: Mensagem enviada, ID: 32196[0m
+[0;32mI (60646) TempUmidade: Mensagem enviada: Temp: 30.2°C, Hum: 66.1%[0m
+[0;32mI (60666) TempUmidade: Mensagem publicada com sucesso, ID: 32196[0m
+[0;32mI (120666) TempUmidade: Mensagem enviada, ID: 22817[0m
+[0;32mI (120666) TempUmidade: Mensagem enviada: Temp: 30.3°C, Hum: 66.0%[0m
+[0;32mI (120706) TempUmidade: Mensagem publicada com sucesso, ID: 22817[0m
+[0;32mI (180696) TempUmidade: Mensagem enviada, ID: 761[0m
+[0;32mI (180696) TempUmidade: Mensagem enviada: Temp: 30.3°C, Hum: 65.6%[0m
+[0;32mI (182346) TempUmidade: Mensagem publicada com sucesso, ID: 761[0m
+[0;32mI (240726) TempUmidade: Mensagem enviada, ID: 3363[0m
+[0;32mI (240736) TempUmidade: Mensagem enviada: Temp: 29.9°C, Hum: 55.8%[0m
+[0;32mI (240746) TempUmidade: Mensagem publicada com sucesso, ID: 3363[0m
+����������������������������������������������������������������ensagem enviada, ID: 26276[0m
+[0;32mI (300756) TempUmidade: Mensagem enviada: Temp: 27.0°C, Hum: 35.8%[0m
+[0;32mI (300776) TempUmidade: Mensagem publicada com sucesso, ID: 26276[0m
+����������������������������������������������������������������ensagem enviada, ID: 32709[0m
+[0;32mI (360796) TempUmidade: Mensagem enviada: Temp: 22.7°C, Hum: 44.1%[0m
+[0;32mI (360806) TempUmidade: Mensagem publicada com sucesso, ID: 32709[0m
+����������������������������������������������������������������ensagem enviada, ID: 5311[0m
+[0;32mI (420826) TempUmidade: Mensagem enviada: Temp: 23.9°C, Hum: 88.7%[0m
+[0;32mI (420856) TempUmidade: Mensagem publicada com sucesso, ID: 5311[0m
+[0;32mI (480856) TempUmidade: Mensagem enviada, ID: 14178[0m
+[0;32mI (480856) TempUmidade: Mensagem enviada: Temp: 26.6°C, Hum: 78.8%[0m
+[0;32mI (480866) TempUmidade: Mensagem publicada com sucesso, ID: 14178[0m
+����������������������������������������������������������������ensagem enviada, ID: 65064[0m
+[0;32mI (540876) TempUmidade: Mensagem enviada: Temp: 28.1°C, Hum: 74.1%[0m
+[0;32mI (540896) TempUmidade: Mensagem publicada com sucesso, ID: 65064[0m

@@ -1,0 +1,18 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400dd973: task_wdt_timeout_handling at /home/frosted27/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400ddd38: task_wdt_isr at /home/frosted27/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40083499: _xt_lowint1 at /home/frosted27/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4000bfed: _xtos_set_intlevel in ROM
+0x4008a33a: vPortClearInterruptMaskFromISR at /home/frosted27/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+ (inlined by) vPortExitCritical at /home/frosted27/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:509
+0x400d7774: dht_fetch_data at /home/frosted27/Documents/iot/espLeitorTemp/main/dht.c:150 (discriminator 1)
+0x400d78e5: dht_read_data at /home/frosted27/Documents/iot/espLeitorTemp/main/dht.c:212
+0x400d754d: lerTemp at /home/frosted27/Documents/iot/espLeitorTemp/main/main.c:275
+0x400d76e1: app_main at /home/frosted27/Documents/iot/espLeitorTemp/main/main.c:348
+0x4016a667: main_task at /home/frosted27/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f89: vPortTaskWrapper at /home/frosted27/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

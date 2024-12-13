@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/frosted27/Documents/iot/newmqtt/lib/mysql-connector-j.jar",
+        "/home/frosted27/Documents/iot/newmqtt/libs/org.eclipse.paho.client.mqttv3-1.2.5.jar",
+        "/home/frosted27/Documents/iot/newmqtt/lib/mysql-connector-java.jar",
+        "/home/frosted27/Documents/iot/newmqtt/lib/jcommon-1.0.23.jar",
+        "/home/frosted27/Documents/iot/newmqtt/lib/jfreechart-1.0.19.jar"
+    ]
+}

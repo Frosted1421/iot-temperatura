@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MQTTSubscriber",
+            "request": "launch",
+            "mainClass": "MQTTSubscriber",
+            "projectName": "java-mqtt",
+            "classPaths": [
+                "libs/org.eclipse.paho.client.mqttv3-1.2.5.jar"
+            ]
+        }
+    ]
+}
