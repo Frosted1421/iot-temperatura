@@ -400,7 +400,7 @@ void app_main(void)
             }
             tempoInicial40s = tempoNovo;
         }
-        
+        lerTemp();
 
         vTaskDelay(300 / portTICK_PERIOD_MS);
     }
